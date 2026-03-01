@@ -102,12 +102,16 @@ dec_tree_reg.fit(X, y.values)
 y_pred = dec_tree_reg.predict(X)
 error = np.sqrt(mean_squared_error(y, y_pred))
 print("${:,.02f}".format(error))
+
+
 from sklearn.ensemble import RandomForestRegressor
 random_forest_reg = RandomForestRegressor(random_state=0)
 random_forest_reg.fit(X, y.values)
 y_pred = random_forest_reg.predict(X)
 error = np.sqrt(mean_squared_error(y, y_pred))
 print("${:,.02f}".format(error))
+
+
 from sklearn.model_selection import GridSearchCV
 
 max_depth = [None, 2,4,6,8,10,12]
