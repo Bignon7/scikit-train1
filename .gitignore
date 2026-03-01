@@ -1,0 +1,5 @@
+my_venv/
+__pycache__/
+*.pyc
+# Ignore les checkpoints Jupyter
+.ipynb_checkpoints/
