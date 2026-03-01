@@ -149,4 +149,3 @@ le_country = data["le_country"]
 le_education = data["le_education"]
 y_pred = regressor_loaded.predict(X)
 y_pred
-
