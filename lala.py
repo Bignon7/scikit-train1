@@ -202,6 +202,9 @@ X = X.astype(float)
 X
 y_pred = regressor.predict(X)
 y_pred
+
+
+
 import pickle
 #Ce bloc pour exporter le modèle et les encodeurs pour pouvoir les réutiliser ailleurs 
 data = {"model": regressor, "le_country": le_country, "le_education": le_education}
